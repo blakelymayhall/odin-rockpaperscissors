@@ -1,0 +1,35 @@
+.titleHeader {
+    text-align: center;
+    font-size: 64px;
+    margin-bottom: 10px;
+}
+
+.titleText {
+    text-align: center;
+    font-size: 24px;
+    margin-top: 0;
+}
+
+button {
+    font-size: 32px;
+    width: 300px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    border-radius: 12px;
+}
+
+button:hover {
+    background-color: #4CAF50; /* Green */
+    color: white;
+  }
+
+.buttonContainer_row1 {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 40px;
+}
+
+.buttonContainer_row2 {
+    display: flex;
+    justify-content: center;
+    gap: 90px;
+}
