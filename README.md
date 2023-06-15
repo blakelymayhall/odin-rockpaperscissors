@@ -7,3 +7,8 @@ The original javascript source code for the rock paper scissors game was written
 This project is meant to give the student creative liberty to make a UI and provide functionality via JavaScript.
 
 This will require code refactoring and iteration on the UI to be dynamic, and user-friendly.
+
+# TODO:
+- show image based on selection(s)
+- display the final score / reset button
+- do we want the game log to extend? Do you have another option? Could show ties as something else?
