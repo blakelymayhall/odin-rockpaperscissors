@@ -1,19 +1,30 @@
 .titleHeader {
     text-align: center;
     font-size: 64px;
-    margin-bottom: 30px;
+    margin-bottom: 0px;
 }
 
-.headerContainerRow {
+.instructText {
+    font-size: 24px;
+    text-align: center;
+}
+
+.headUnderline {
+    height: 5px;
+    width: 80%;
+    margin-left: 10%;
+    background-color: black;
+}
+
+.gameContent {
     display: flex;
     justify-content: center;
-    font-size: 24px;
-    gap: 500px;
+    gap: 5%;
 }
 
 button {
     font-size: 32px;
-    width: 300px;
+    min-width: 150px;
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
     border-radius: 12px;
 }
@@ -23,19 +34,9 @@ button:hover {
     color: white;
 }
 
-.throwRow {
-    display: flex;
-    gap: 250px;
-}
-
-.playerThrows {
-    margin-left: 40px;
-}
-
-.compThrows {
-    font-size: 32px;
+.playerHeader {
+    font-size: 24px;
     font-weight: bold;
-    text-align: center;
 }
 
 .buttonContainer_row1 {
@@ -49,4 +50,60 @@ button:hover {
     justify-content: center;
     gap: 90px;
     padding-bottom: 15px;
+}
+
+.compHeader {
+    font-size: 24px;
+    font-weight: bold;
+    padding-top: 25px;
+}
+
+.compThrow {
+    font-size: 30px;
+    font-weight: bold;
+    padding-top: 25px;
+    padding-left: 40%;
+}
+
+.middle {
+    margin-top: 25px;
+    min-width: 200px;
+    min-height: 450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+}
+
+img {
+    max-width: 100px;
+    max-height: 100px;
+}
+
+.gameLogContainer {
+    border: 5px solid black;
+    margin-top: 25px;
+    min-width: 350px;
+    min-height: 450px;
+}
+
+.gameLogHeader {
+    margin-top: 5%;
+    margin-left: 36%;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.gameLogHeaderUL {
+    width: 100%;
+    margin: 0;
+    margin-top: -3%;
+}
+
+/*to automate (or leave here and just add class in JS?*/
+.roundResult {
+    margin-left: 5%;
+    margin-top: 5%;
+    font-size: 18px;
 }

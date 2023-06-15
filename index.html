@@ -8,22 +8,39 @@
 </head>
 
 <body>
-  <h1 class="titleHeader"> Rock Paper Scissors!</h1>
-  <div class = "headerContainerRow">
-    <p class="playerHeader">Player Throw:</p>
-    <p class="compHeader">Computer Throw:</p>
-  </div>
-  <div class="throwRow">
-    <div class="playerThrows">
-      <div class="buttonContainer_row1">
-        <button data-throw="rock" class="rockButton">Rock</button>
+  <h1 class="titleHeader"> Rock, Paper, Scissors!</h1>
+  <p class="instructText"> First to five wins!</p>
+  <div class="headUnderline"></div>
+  <div class="gameContent">
+    <div class="leftSide">
+      <p class="playerHeader">Player Throw:</p>
+      <div class="playerThrows">
+        <div class="buttonContainer_row1">
+          <button data-throw="rock" class="rockButton">Rock</button>
+        </div>
+        <div class="buttonContainer_row2">
+            <button data-throw="paper" class="paperButton">Paper</button>
+            <button data-throw="scissors" class="scissorsButton">Scissors</button>
+        </div>
       </div>
-      <div class="buttonContainer_row2">
-          <button data-throw="paper" class="paperButton">Paper</button>
-          <button data-throw="scissors" class="scissorsButton">Scissors</button>
+      <p class="compHeader"> Computer Throw:</p> 
+      <p class="compThrow">Rock</p>
+    </div>
+    <div class="middle">
+      <!-- To Automate -->
+      <img src="source/paper.png" alt="paper">
+      <img src="source/paper.png" alt="paper">
+      <!-- End To Automate -->
+    </div>
+    <div class="rightSide"> 
+      <div class="gameLogContainer">
+        <p class="gameLogHeader">Game Log:</p>
+        <div class="headUnderline gameLogHeaderUL"></div>
+        <!-- To Automate -->
+        <p class="roundResult"> Round 1: You Lose! Rock beats Scissors.</p>
+        <!-- End To Automate -->
       </div>
     </div>
-    <p class="compThrows"> ........... </p> 
   </div>
 </body>
 
