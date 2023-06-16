@@ -19,18 +19,19 @@
 .gameContent {
     display: flex;
     justify-content: center;
-    gap: 5%;
+    gap: 10%;
 }
 
 button {
     font-size: 32px;
     min-width: 150px;
+    max-height: 43px;
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
     border-radius: 12px;
 }
 
 button:hover {
-    background-color: #4CAF50; /* Green */
+    background-color: #4CAF50; 
     color: white;
 }
 
@@ -66,14 +67,15 @@ button:hover {
 }
 
 .middle {
-    margin-top: 25px;
+    margin-top: 30px;
     min-width: 200px;
     min-height: 450px;
+    max-height: 450px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 100px;
+    gap: 160px;
 }
 
 img {
@@ -84,13 +86,13 @@ img {
 .gameLogContainer {
     border: 5px solid black;
     margin-top: 25px;
-    min-width: 350px;
-    min-height: 450px;
+    min-width: 150px;
+    min-height: 200px;
 }
 
 .gameLogHeader {
-    margin-top: 5%;
-    margin-left: 36%;
+    margin-top: 10%;
+    margin-left: 15%;
     font-weight: bold;
     font-size: 20px;
 }
@@ -101,9 +103,51 @@ img {
     margin-top: -3%;
 }
 
-/*to automate (or leave here and just add class in JS?*/
 .roundResult {
     margin-left: 5%;
     margin-top: 5%;
     font-size: 19px;
+}
+
+.scoreContainer {
+    display: flex;
+}
+
+.labelContainer, .scores {
+    margin-left: 20%;
+    font-size: 24px;
+    text-align: right;
+    max-width: 30px;
+    font-weight: bold;
+}
+
+.wins, .winLabel {
+    color: green;
+}
+
+.losses, .loseLabel {
+    color: red;
+}
+
+.ties, .tieLabel {
+    color: grey;
+}
+
+.roundResult {
+    margin-top: 15%;
+    margin-left: 0;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5%;
+}
+
+.finalText {
+    font-size: 24px; 
+    font-weight:bold;
 }
